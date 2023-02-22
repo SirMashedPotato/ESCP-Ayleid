@@ -4,13 +4,13 @@
 		<defName>ESCP_AyleidCulture</defName>
 		<label>Ayleidic</label>
 		<description>An ancient culture common among the Ayleid.</description>
-		<pawnNameMaker>ESCP_Falmer_NamerMale</pawnNameMaker>
-		<pawnNameMakerFemale>ESCP_Falmer_NamerFemale</pawnNameMakerFemale>
+		<pawnNameMaker>ESCP_Ayleid_NamerMale</pawnNameMaker>
+		<pawnNameMakerFemale>ESCP_Ayleid_NamerFemale</pawnNameMakerFemale>
 		<ideoNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerIdeoCorunan</ideoNameMaker>
 		<deityNameMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_Ayleid_NamerCultureDeityName</deityNameMaker>
 		<deityTypeMaker MayRequire="Ludeon.RimWorld.Ideology">DeityTypeMakerCorunan</deityTypeMaker>
 		<festivalNameMaker MayRequire="Ludeon.RimWorld.Ideology">NamerFestivalCorunan</festivalNameMaker>
-		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_Falmer_NamerCultureLeaderTitle</leaderTitleMaker>
+		<leaderTitleMaker MayRequire="Ludeon.RimWorld.Ideology">ESCP_Ayleid_NamerCultureLeaderTitle</leaderTitleMaker>
 		<allowedPlaceTags>
 			<li>OriginTribal</li>
 		</allowedPlaceTags>
