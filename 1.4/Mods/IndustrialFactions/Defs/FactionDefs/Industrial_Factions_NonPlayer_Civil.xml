@@ -43,6 +43,14 @@
 			<li MayRequire="Sarg.Alphamemes">AM_Artist</li>
 			<li MayRequire="Sarg.Alphamemes">AM_Sadist</li>
 		</requiredMemes>
+		<disallowedMemes Inherit="False">
+			<li MayRequire="Ludeon.RimWorld.Ideology">Nudism</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Raider</li>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Blindsight</li>
+		</disallowedMemes>
+		<disallowedPrecepts>
+			<li MayRequire="Sarg.Alphamemes">VME_CraftingQuality_Decreased</li>
+		</disallowedPrecepts>
 		<pawnGroupMakers>
 			<li>
 				<!-- Normal fights, standard mix -->
