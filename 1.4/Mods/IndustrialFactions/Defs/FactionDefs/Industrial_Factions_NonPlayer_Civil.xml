@@ -38,7 +38,11 @@
 		<structureMemeWeights>
 			<ESCP_Structure_OriginDivinesEight MayRequire="Ludeon.RimWorld.Ideology">20</ESCP_Structure_OriginDivinesEight>
 		</structureMemeWeights>
-		<requiredMemes/>
+		<requiredMemes>
+			<li MayRequire="Ludeon.RimWorld.Ideology">Supremacist</li>
+			<li MayRequire="Sarg.Alphamemes">AM_Artist</li>
+			<li MayRequire="Sarg.Alphamemes">AM_Sadist</li>
+		</requiredMemes>
 		<pawnGroupMakers>
 			<li>
 				<!-- Normal fights, standard mix -->
